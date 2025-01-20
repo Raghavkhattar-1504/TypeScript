@@ -2,9 +2,18 @@
 // allowing types to be passed as arguments
 // we do this where we want to declare same functions but their return type or params type differ.
 
-function identity<T>(value: T){
-    return value
+function identity<T>(value: T) : string {
+    return String(value);
 }
 
+//yha prr return type bhi same honi chahiye mtlb T ya frrr return type mein vhi retrun kro jo return type likha hhua h.
+
 console.log(identity<string>("Hello"));
-console.log(identity<number>(42));
+
+
+
+
+function identify<T>(value: T) : T {
+    return value;
+}
+console.log(identify<number>(42));

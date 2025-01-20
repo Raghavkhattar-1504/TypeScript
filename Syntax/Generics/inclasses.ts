@@ -4,7 +4,7 @@ interface Pair<T, U>{
     second: U;
 }
 
-const pair: Pair<string, number> = {first:"Rakshit", second:42};
+const pair: Pair<string, number> = {first:"Raghav", second : 21};
 console.log(pair)
 
 
