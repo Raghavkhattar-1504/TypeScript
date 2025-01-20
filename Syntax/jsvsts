@@ -1,0 +1,8 @@
+// ts is just the better version of js
+// ts is statically typed, which means it checks the types at compile time
+// this prevents runtime errors and makes the code more maintainable and scalable
+// ts is fully interoperable with js, which means you can use ts in existing js projects
+// ts is open sourced and manatained by MicroSoft.
+// ts core principle is that it gives us type safety
+// ts is a superset of js, which means you can write js code in ts and it will work as expected.
+// ts is a statically typed language, which means it checks the types at compile time
