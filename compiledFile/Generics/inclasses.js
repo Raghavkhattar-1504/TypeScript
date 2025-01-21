@@ -1,5 +1,5 @@
 "use strict";
-const pair = { first: "Rakshit", second: 42 };
+const pair = { first: "Raghav", second: 21 };
 console.log(pair);
 //generic classes
 class Box {

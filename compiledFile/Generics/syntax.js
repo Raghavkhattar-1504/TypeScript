@@ -3,7 +3,11 @@
 // allowing types to be passed as arguments
 // we do this where we want to declare same functions but their return type or params type differ.
 function identity(value) {
+    return String(value);
+}
+//yha prr return type bhi same honi chahiye mtlb T ya frrr return type mein vhi retrun kro jo return type likha hhua h.
+console.log(identity("Hello"));
+function identify(value) {
     return value;
 }
-console.log(identity("Hello"));
-console.log(identity(42));
+console.log(identify(42));
