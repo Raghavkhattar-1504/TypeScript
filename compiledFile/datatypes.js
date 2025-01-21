@@ -2,9 +2,9 @@
 let num = 21;
 let cost = 23;
 let str = "Raghav";
-let print = "Heelo";
+// let print = "Heelo";
 //since the type of data is not defined, bur still ts code compiles this code and converts it into js
-console.log(print);
+// console.log(print);
 console.log(str);
 let bool = true;
 //ts automatically detects the type of data.
